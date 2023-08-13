@@ -7,7 +7,7 @@ int main(){
 	char name[10];
 	cin >> num1;
 	cin >> num2;
-	cin >> name;
+	cin >> name;	// STOPS READING ONCE A WHITESPACE IS ENCOUNTERED
 	cout << "\nYou Entered INTEGER : "<< num1;
 	cout << "\nYou Entered FLOAT : "<< num2;
 	cout << "\nYou Entered STRING : "<< name;
