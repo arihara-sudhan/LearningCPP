@@ -4,7 +4,7 @@ struct Student {
     std::string name;
     int rollNumber;
 
-    union {
+    union { // CAN'T HAVE MEMBER FUNCTIONS
         int age;
         double gpa;
     };
