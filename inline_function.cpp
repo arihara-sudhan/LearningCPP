@@ -7,7 +7,8 @@ where the function is called, instead of making a separate function call.
 This can make the code run faster because it avoids the overhead of 
 the function call.
 */
-
+// MEMBER FUNCTIONS ARE INLINE BY DEFAULT
+// WE CAN DEFINE A MEMBER FUNCTION AS INLINE
 inline void aFunc(){
 	cout<<"HEY"<<endl;
 }
